@@ -1,0 +1,17 @@
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\bin\Debug\net8.0-windows\DecimoPrimeiroProjeto.exe
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\bin\Debug\net8.0-windows\DecimoPrimeiroProjeto.deps.json
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\bin\Debug\net8.0-windows\DecimoPrimeiroProjeto.runtimeconfig.json
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\bin\Debug\net8.0-windows\DecimoPrimeiroProjeto.dll
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\bin\Debug\net8.0-windows\DecimoPrimeiroProjeto.pdb
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.Form1.resources
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.csproj.GenerateResource.cache
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.AssemblyInfoInputs.cache
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.AssemblyInfo.cs
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.sourcelink.json
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.dll
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\refint\DecimoPrimeiroProjeto.dll
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.pdb
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.genruntimeconfig.cache
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\ref\DecimoPrimeiroProjeto.dll
