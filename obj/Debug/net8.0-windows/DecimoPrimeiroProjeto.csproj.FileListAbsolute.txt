@@ -15,3 +15,7 @@ C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimei
 C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.pdb
 C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.genruntimeconfig.cache
 C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\ref\DecimoPrimeiroProjeto.dll
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\bin\Debug\net8.0-windows\CadastroBiblioteca.dll
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\bin\Debug\net8.0-windows\CadastroBiblioteca.pdb
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.csproj.AssemblyReference.cache
+C:\Users\louid\OneDrive\Área de Trabalho\C#3\DecimoPrimeiroProjeto\DecimoPrimeiroProjeto\obj\Debug\net8.0-windows\DecimoPrimeiroProjeto.csproj.CopyComplete

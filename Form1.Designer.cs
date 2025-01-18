@@ -30,30 +30,30 @@
         {
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
-            tabPage2 = new TabPage();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            textBoxNomeCompleto = new TextBox();
-            textBoxNumeroDoDocumento = new TextBox();
-            textBoxDataNascimento = new TextBox();
-            textBoxNomeRua = new TextBox();
+            buttonCadastrar = new Button();
             textBoxNumeroCasa = new TextBox();
-            button1 = new Button();
+            textBoxNomeRua = new TextBox();
+            textBoxDataNascimento = new TextBox();
+            textBoxNumeroDoDocumento = new TextBox();
+            textBoxNomeCompleto = new TextBox();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            tabPage2 = new TabPage();
+            buttonExcluir = new Button();
+            buttonBusca = new Button();
+            textBoxBuscaNumeroDocumento = new TextBox();
+            labelNumeroCasa = new Label();
+            labelNomeRua = new Label();
+            labelDataNascimento = new Label();
+            labelNomeCompleto = new Label();
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
             label9 = new Label();
             label10 = new Label();
-            labelNomeCompleto = new Label();
-            labelDataNascimento = new Label();
-            labelNomeRua = new Label();
-            labelNumeroCasa = new Label();
-            textBox1 = new TextBox();
-            buttonBusca = new Button();
-            buttonExcluir = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             tabPage2.SuspendLayout();
@@ -71,7 +71,7 @@
             // 
             // tabPage1
             // 
-            tabPage1.Controls.Add(button1);
+            tabPage1.Controls.Add(buttonCadastrar);
             tabPage1.Controls.Add(textBoxNumeroCasa);
             tabPage1.Controls.Add(textBoxNomeRua);
             tabPage1.Controls.Add(textBoxDataNascimento);
@@ -90,11 +90,101 @@
             tabPage1.Text = "Cadastro";
             tabPage1.UseVisualStyleBackColor = true;
             // 
+            // buttonCadastrar
+            // 
+            buttonCadastrar.Location = new Point(6, 183);
+            buttonCadastrar.Name = "buttonCadastrar";
+            buttonCadastrar.Size = new Size(79, 31);
+            buttonCadastrar.TabIndex = 10;
+            buttonCadastrar.Text = "Cadastrar";
+            buttonCadastrar.UseVisualStyleBackColor = true;
+            buttonCadastrar.Click += buttonCadastrar_Click;
+            // 
+            // textBoxNumeroCasa
+            // 
+            textBoxNumeroCasa.Location = new Point(108, 135);
+            textBoxNumeroCasa.Name = "textBoxNumeroCasa";
+            textBoxNumeroCasa.Size = new Size(34, 23);
+            textBoxNumeroCasa.TabIndex = 9;
+            // 
+            // textBoxNomeRua
+            // 
+            textBoxNomeRua.Location = new Point(91, 109);
+            textBoxNomeRua.Name = "textBoxNomeRua";
+            textBoxNomeRua.Size = new Size(265, 23);
+            textBoxNomeRua.TabIndex = 8;
+            // 
+            // textBoxDataNascimento
+            // 
+            textBoxDataNascimento.Location = new Point(127, 84);
+            textBoxDataNascimento.Name = "textBoxDataNascimento";
+            textBoxDataNascimento.Size = new Size(229, 23);
+            textBoxDataNascimento.TabIndex = 7;
+            // 
+            // textBoxNumeroDoDocumento
+            // 
+            textBoxNumeroDoDocumento.Location = new Point(148, 59);
+            textBoxNumeroDoDocumento.Name = "textBoxNumeroDoDocumento";
+            textBoxNumeroDoDocumento.Size = new Size(208, 23);
+            textBoxNumeroDoDocumento.TabIndex = 6;
+            // 
+            // textBoxNomeCompleto
+            // 
+            textBoxNomeCompleto.Location = new Point(109, 33);
+            textBoxNomeCompleto.Name = "textBoxNomeCompleto";
+            textBoxNomeCompleto.Size = new Size(247, 23);
+            textBoxNomeCompleto.TabIndex = 5;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(6, 143);
+            label5.Name = "label5";
+            label5.Size = new Size(96, 15);
+            label5.TabIndex = 4;
+            label5.Text = "Número da casa:";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(6, 117);
+            label4.Name = "label4";
+            label4.Size = new Size(79, 15);
+            label4.TabIndex = 3;
+            label4.Text = "Nome da rua:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(6, 92);
+            label3.Name = "label3";
+            label3.Size = new Size(115, 15);
+            label3.TabIndex = 2;
+            label3.Text = "Data de nascimento:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(3, 67);
+            label2.Name = "label2";
+            label2.Size = new Size(136, 15);
+            label2.TabIndex = 1;
+            label2.Text = "Número do documento:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(3, 41);
+            label1.Name = "label1";
+            label1.Size = new Size(97, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Nome completo:";
+            // 
             // tabPage2
             // 
             tabPage2.Controls.Add(buttonExcluir);
             tabPage2.Controls.Add(buttonBusca);
-            tabPage2.Controls.Add(textBox1);
+            tabPage2.Controls.Add(textBoxBuscaNumeroDocumento);
             tabPage2.Controls.Add(labelNumeroCasa);
             tabPage2.Controls.Add(labelNomeRua);
             tabPage2.Controls.Add(labelDataNascimento);
@@ -112,94 +202,68 @@
             tabPage2.Text = "Modificações";
             tabPage2.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // buttonExcluir
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(3, 41);
-            label1.Name = "label1";
-            label1.Size = new Size(97, 15);
-            label1.TabIndex = 0;
-            label1.Text = "Nome completo:";
+            buttonExcluir.Location = new Point(130, 186);
+            buttonExcluir.Name = "buttonExcluir";
+            buttonExcluir.Size = new Size(97, 35);
+            buttonExcluir.TabIndex = 17;
+            buttonExcluir.Text = "Excluir";
+            buttonExcluir.UseVisualStyleBackColor = true;
+            buttonExcluir.Click += buttonExcluir_Click;
             // 
-            // label2
+            // buttonBusca
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(3, 67);
-            label2.Name = "label2";
-            label2.Size = new Size(136, 15);
-            label2.TabIndex = 1;
-            label2.Text = "Número do documento:";
+            buttonBusca.Location = new Point(6, 186);
+            buttonBusca.Name = "buttonBusca";
+            buttonBusca.Size = new Size(97, 35);
+            buttonBusca.TabIndex = 16;
+            buttonBusca.Text = "Buscar";
+            buttonBusca.UseVisualStyleBackColor = true;
+            buttonBusca.Click += buttonBusca_Click;
             // 
-            // label3
+            // textBoxBuscaNumeroDocumento
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(6, 92);
-            label3.Name = "label3";
-            label3.Size = new Size(115, 15);
-            label3.TabIndex = 2;
-            label3.Text = "Data de nascimento:";
+            textBoxBuscaNumeroDocumento.Location = new Point(148, 63);
+            textBoxBuscaNumeroDocumento.Name = "textBoxBuscaNumeroDocumento";
+            textBoxBuscaNumeroDocumento.Size = new Size(209, 23);
+            textBoxBuscaNumeroDocumento.TabIndex = 15;
             // 
-            // label4
+            // labelNumeroCasa
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(6, 117);
-            label4.Name = "label4";
-            label4.Size = new Size(79, 15);
-            label4.TabIndex = 3;
-            label4.Text = "Nome da rua:";
+            labelNumeroCasa.AutoSize = true;
+            labelNumeroCasa.Location = new Point(108, 147);
+            labelNumeroCasa.Name = "labelNumeroCasa";
+            labelNumeroCasa.Size = new Size(12, 15);
+            labelNumeroCasa.TabIndex = 14;
+            labelNumeroCasa.Text = "-";
             // 
-            // label5
+            // labelNomeRua
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(6, 143);
-            label5.Name = "label5";
-            label5.Size = new Size(96, 15);
-            label5.TabIndex = 4;
-            label5.Text = "Número da casa:";
+            labelNomeRua.AutoSize = true;
+            labelNomeRua.Location = new Point(91, 121);
+            labelNomeRua.Name = "labelNomeRua";
+            labelNomeRua.Size = new Size(12, 15);
+            labelNomeRua.TabIndex = 13;
+            labelNomeRua.Text = "-";
             // 
-            // textBoxNomeCompleto
+            // labelDataNascimento
             // 
-            textBoxNomeCompleto.Location = new Point(109, 33);
-            textBoxNomeCompleto.Name = "textBoxNomeCompleto";
-            textBoxNomeCompleto.Size = new Size(247, 23);
-            textBoxNomeCompleto.TabIndex = 5;
+            labelDataNascimento.AutoSize = true;
+            labelDataNascimento.Location = new Point(130, 96);
+            labelDataNascimento.Name = "labelDataNascimento";
+            labelDataNascimento.Size = new Size(12, 15);
+            labelDataNascimento.TabIndex = 12;
+            labelDataNascimento.Text = "-";
             // 
-            // textBoxNumeroDoDocumento
+            // labelNomeCompleto
             // 
-            textBoxNumeroDoDocumento.Location = new Point(148, 59);
-            textBoxNumeroDoDocumento.Name = "textBoxNumeroDoDocumento";
-            textBoxNumeroDoDocumento.Size = new Size(208, 23);
-            textBoxNumeroDoDocumento.TabIndex = 6;
-            // 
-            // textBoxDataNascimento
-            // 
-            textBoxDataNascimento.Location = new Point(127, 84);
-            textBoxDataNascimento.Name = "textBoxDataNascimento";
-            textBoxDataNascimento.Size = new Size(229, 23);
-            textBoxDataNascimento.TabIndex = 7;
-            // 
-            // textBoxNomeRua
-            // 
-            textBoxNomeRua.Location = new Point(91, 109);
-            textBoxNomeRua.Name = "textBoxNomeRua";
-            textBoxNomeRua.Size = new Size(265, 23);
-            textBoxNomeRua.TabIndex = 8;
-            // 
-            // textBoxNumeroCasa
-            // 
-            textBoxNumeroCasa.Location = new Point(108, 135);
-            textBoxNumeroCasa.Name = "textBoxNumeroCasa";
-            textBoxNumeroCasa.Size = new Size(34, 23);
-            textBoxNumeroCasa.TabIndex = 9;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(6, 183);
-            button1.Name = "button1";
-            button1.Size = new Size(79, 31);
-            button1.TabIndex = 10;
-            button1.Text = "Cadastrar";
-            button1.UseVisualStyleBackColor = true;
+            labelNomeCompleto.AutoSize = true;
+            labelNomeCompleto.Location = new Point(108, 45);
+            labelNomeCompleto.Name = "labelNomeCompleto";
+            labelNomeCompleto.Size = new Size(12, 15);
+            labelNomeCompleto.TabIndex = 10;
+            labelNomeCompleto.Text = "-";
             // 
             // label6
             // 
@@ -246,67 +310,6 @@
             label10.TabIndex = 5;
             label10.Text = "Nome completo:";
             // 
-            // labelNomeCompleto
-            // 
-            labelNomeCompleto.AutoSize = true;
-            labelNomeCompleto.Location = new Point(108, 45);
-            labelNomeCompleto.Name = "labelNomeCompleto";
-            labelNomeCompleto.Size = new Size(12, 15);
-            labelNomeCompleto.TabIndex = 10;
-            labelNomeCompleto.Text = "-";
-            // 
-            // labelDataNascimento
-            // 
-            labelDataNascimento.AutoSize = true;
-            labelDataNascimento.Location = new Point(130, 96);
-            labelDataNascimento.Name = "labelDataNascimento";
-            labelDataNascimento.Size = new Size(12, 15);
-            labelDataNascimento.TabIndex = 12;
-            labelDataNascimento.Text = "-";
-            // 
-            // labelNomeRua
-            // 
-            labelNomeRua.AutoSize = true;
-            labelNomeRua.Location = new Point(91, 121);
-            labelNomeRua.Name = "labelNomeRua";
-            labelNomeRua.Size = new Size(12, 15);
-            labelNomeRua.TabIndex = 13;
-            labelNomeRua.Text = "-";
-            // 
-            // labelNumeroCasa
-            // 
-            labelNumeroCasa.AutoSize = true;
-            labelNumeroCasa.Location = new Point(108, 147);
-            labelNumeroCasa.Name = "labelNumeroCasa";
-            labelNumeroCasa.Size = new Size(12, 15);
-            labelNumeroCasa.TabIndex = 14;
-            labelNumeroCasa.Text = "-";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(148, 63);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(209, 23);
-            textBox1.TabIndex = 15;
-            // 
-            // buttonBusca
-            // 
-            buttonBusca.Location = new Point(6, 186);
-            buttonBusca.Name = "buttonBusca";
-            buttonBusca.Size = new Size(97, 35);
-            buttonBusca.TabIndex = 16;
-            buttonBusca.Text = "Buscar";
-            buttonBusca.UseVisualStyleBackColor = true;
-            // 
-            // buttonExcluir
-            // 
-            buttonExcluir.Location = new Point(130, 186);
-            buttonExcluir.Name = "buttonExcluir";
-            buttonExcluir.Size = new Size(97, 35);
-            buttonExcluir.TabIndex = 17;
-            buttonExcluir.Text = "Excluir";
-            buttonExcluir.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -340,7 +343,7 @@
         private TextBox textBoxDataNascimento;
         private TextBox textBoxNumeroDoDocumento;
         private TextBox textBoxNomeCompleto;
-        private Button button1;
+        private Button buttonCadastrar;
         private Label label6;
         private Label label7;
         private Label label8;
@@ -350,7 +353,7 @@
         private Label labelNumeroCasa;
         private Label labelNomeRua;
         private Label labelDataNascimento;
-        private TextBox textBox1;
+        private TextBox textBoxBuscaNumeroDocumento;
         private Button buttonExcluir;
         private Button buttonBusca;
     }
